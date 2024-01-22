@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 url_ss = 'https://studentsite.gunadarma.ac.id/'
 laman_ss = requests.get(url_ss)
-halaman = requests.get(th)
+halaman = requests.get(url_ss)
 hasil = BeautifulSoup (halaman.content, 'html.parser')
 
 
