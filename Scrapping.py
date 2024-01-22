@@ -40,3 +40,11 @@ with open('berita.txt', mode='w') as berita_file:
         berita_file.write('\n')
         berita_file.write(rangkuman)
         berita_file.write('\n\n')
+
+data = {'Judul': judul_list, 'Ringkasan': ringkasan_list}
+
+# Membuat data frame
+df = pd.DataFrame(data)
+
+# Menampilkan data frame
+print(df)
