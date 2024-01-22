@@ -24,13 +24,13 @@ for berita in kontainer_berita:
         judul_string = judul.get_text()
    
         judul_rapi = ' '.join(str(judul_string).strip().split()) 
-        print(judul_rapi)
+        # print(judul_rapi)
         # append judul ke list
         judul_list.append(judul_rapi)
 
     for rangkuman in berita.find_all('div', class_='content-box-wrapper'):
         rangkuman_rapi = ' '.join(str(rangkuman.get_text()).strip().split())
-        print(rangkuman_rapi)
+        # print(rangkuman_rapi)
 
         ringkasan_list.append(rangkuman_rapi)
 
