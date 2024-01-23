@@ -9,6 +9,7 @@ nilai = pd.DataFrame({
 })
 print(nilai)
 
+#Beda
 
 data = [10, 9, 7, 8, 10, 8]
 
@@ -21,3 +22,9 @@ print(data)
 data.append(9)
 
 print(data)
+
+#Beda
+
+data = [10, 9, 7, 8, 10, 8] indeks O 
+    for elemen in data: 
+        print("Elemen ke ", indeks, " = ", elemen) indeks = indeks + 1
